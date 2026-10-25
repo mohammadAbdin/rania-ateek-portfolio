@@ -45,7 +45,10 @@
 
 import React from "react";
 import { images } from "../data";
-import nardImage from "../assets/images/nard-ensemble.png";
+import nardImage from "../Assets/Images/nard-ensemble.jpeg";
+import Rania4 from "../Assets/Images/Rania-4.jpg";
+import Rania7 from "../Assets/Images/Rania-7.jpg";
+
 import { ArrowUpRight, Music2 } from "lucide-react";
 
 const repertoire = [
@@ -93,7 +96,7 @@ export function About() {
     <>
       <section id="about" className="about section-pad">
         <div className="about-visual">
-          <img src={images.about} alt="Live music atmosphere" loading="lazy" />
+          <img src={Rania4} alt="Live music atmosphere" loading="lazy" />
 
           <span className="visual-stamp">
             BEYOND
@@ -148,7 +151,11 @@ export function About() {
         </div>
       </section>
 
-      <section id="repertoire" className="artistic-journey section-pad">
+      <section id="repertoire"  
+      style={{
+    "--repertoire-image": `url("${Rania7}")`,
+  }} 
+  className="artistic-journey section-pad">
         <div className="journey-heading">
           <div>
             <div className="section-kicker">02 / THE REPERTOIRE</div>
@@ -160,10 +167,10 @@ export function About() {
             </h2>
           </div>
 
-          <p>
+          {/* <p>
             From Mozart to Britten, Rania's repertoire explores characters,
             emotions, and stories across the operatic tradition.
-          </p>
+          </p> */}
         </div>
 
         <div className="repertoire-list">
@@ -193,9 +200,12 @@ export function About() {
           <div className="section-kicker">03 / MUSICAL COLLABORATION</div>
 
           <h2>
-            Different roots.
+            {/* Different roots.
             <br />
-            <em>Shared harmony.</em>
+            <em>Shared harmony.</em> */}
+           <em>
+            Shared Harmony
+            </em> 
           </h2>
 
           <div className="nard-label">

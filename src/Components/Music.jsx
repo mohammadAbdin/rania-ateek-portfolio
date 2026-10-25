@@ -1,6 +1,9 @@
 import React from "react";
 import { images, videos } from "../data";
 import { Play, VolumeX, Volume2 } from "lucide-react";
+import Rania2 from "../Assets/Images/Rania-2.jpg";
+// import RaniaStage from "../assets/images/Rania-stage.jpg";
+
 export function Music({
   videoRef,
   videoVisible,
@@ -23,7 +26,7 @@ export function Music({
         <div className="section-kicker light">04 / MUSIC & VIDEO</div>
         <div className="section-title-row">
           <h2>
-            Turn up the <em>feeling.</em>
+            Some <em>Melodies.</em>
           </h2>
           <span>THE SOUND OF RANIA</span>
         </div>
@@ -41,7 +44,7 @@ export function Music({
               <div
                 className="video-poster"
                 style={{
-                  backgroundImage: `url("${images.video}")`,
+                  backgroundImage: `url("${Rania2}")`,
                 }}
               >
                 <button

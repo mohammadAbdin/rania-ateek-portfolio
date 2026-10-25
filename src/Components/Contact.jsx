@@ -19,7 +19,7 @@ export function Contact({}) {
       </a>
       <div className="socials">
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/raniaateek/"
           target="_blank"
           rel="noreferrer"
           aria-label="Instagram placeholder"
@@ -27,7 +27,7 @@ export function Contact({}) {
           <Instagram />
         </a>
         <a
-          href="https://www.youtube.com/"
+          href="https://www.youtube.com/@raniaateek4602"
           target="_blank"
           rel="noreferrer"
           aria-label="YouTube placeholder"

@@ -1,17 +1,23 @@
 // Replace sample entries with Rania's approved content before publishing.
+import Rania1 from "./Assets/Images/Rania-1.jpg";
+import Rania2 from "./Assets/Images/Rania-2.jpg";
+import Rania3 from "./Assets/Images/Rania-3.jpg";
+import Rania4 from "./Assets/Images/Rania-4.jpg";
+import Rania5 from "./Assets/Images/Rania-5.jpg";
+import Rania6 from "./Assets/Images/Rania-6.jpg";
+import Rania7 from "./Assets/Images/Rania-7.jpg";
+
+
 export const images = {
   hero: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1800&q=85",
-  about:
-    "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=1100&q=85",
-  video:
-    "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1800&q=85",
-  events:
-    "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1800&q=85",
+  // about:
+  //   "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=1100&q=85",
+  // video:
+  //   "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1800&q=85",
+  // events:
+  //   "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1800&q=85",
   gallery: [
-    "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1400&q=85",
-    "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1400&q=85",
-    "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1400&q=85",
-    "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1400&q=85",
+    Rania1,Rania2,Rania3,Rania4,Rania5,Rania6,Rania7
   ],
 };
 // The sample video IDs are placeholders. Supply four actual YouTube IDs for launch.

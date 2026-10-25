@@ -46,6 +46,9 @@
 
 import React from "react";
 import { images } from "../data";
+import RaniaStage from "../Assets/Images/Rania-stage.jpg";
+// import Rania2 from "../Assets/Images/Rania-2.jpg";
+
 import {
   ArrowUpRight,
   ArrowRight,
@@ -58,7 +61,7 @@ export function Home() {
       id="home"
       className="hero"
       style={{
-        "--bg": `url("${images.hero}")`,
+        "--bg": `url("${RaniaStage}")`,
       }}
     >
       <div className="hero-wash" />

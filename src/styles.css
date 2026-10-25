@@ -362,17 +362,75 @@ h1 em {
 
 /* ARTISTIC JOURNEY */
 
+/* .artistic-journey {
+  /* background: #f0ece8; */
+
+/*  */
 .artistic-journey {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   background: #f0ece8;
 }
+.artistic-journey::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 58%;
+  height: 100%;
 
-.journey-heading {
+  background-image: var(--repertoire-image);
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+
+  opacity: 0.40;
+
+  /* Softly fade the photograph into the background */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 30%,
+    black 45%,
+    black 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 10%,
+    black 45%,
+    black 100%
+  );
+
+  pointer-events: none;
+}
+/* Additional fade toward the repertoire list */
+.artistic-journey::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 58%;
+  height: 520px;
+
+  background: linear-gradient(
+    to bottom,
+    transparent 100%,
+    #f0ece8 100%
+  );
+
+  pointer-events: none;
+}
+
+/* // */
+/* .journey-heading {
   display: flex;
   justify-content: space-between;
   align-items: end;
   gap: 50px;
   margin-bottom: 60px;
-}
+} */
 
 .journey-heading h2 {
   margin: 24px 0 0;
@@ -386,15 +444,46 @@ h1 em {
 }
 
 .repertoire-list {
-  border-top: 1px solid #d7d0cb;
+  border-top: none;
+
+  background-image: linear-gradient(
+    to right,
+    #d7d0cb 0%,
+    #d7d0cb 35%,
+    transparent 65%
+  );
+
+  background-size: 100% 1px;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
-.repertoire-item {
+/* .repertoire-item {
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   gap: 35px;
   padding: 30px 0;
   border-bottom: 1px solid #d7d0cb;
+} */
+.repertoire-item {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 35px;
+  padding: 30px 0;
+
+  /* Replace the original border with a fading line */
+  border-bottom: none;
+
+  background-image: linear-gradient(
+    to right,
+    #d7d0cb 0%,
+    #d7d0cb 35%,
+    transparent 65%
+  );
+
+  background-size: 100% 1px;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .repertoire-item h3 {
@@ -622,8 +711,8 @@ h1 em {
 
 .video-poster {
   height: 100%;
-  background-position: center;
-  background-size: cover;
+  background-position: right 40% ;
+  background-size: cover ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1250,7 +1339,7 @@ footer > a:last-child {
 
   .nard-image-wrapper {
     max-width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 4 / 4;
   }
   /* .nard-decoration {
     display: none;
@@ -1499,6 +1588,19 @@ footer > a:last-child {
   .gallery-copy h2 {
     font-size: clamp(2.8rem, 11vw, 4.4rem);
   }
+
+
+  .artistic-journey::before,
+  .artistic-journey::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  .artistic-journey::before {
+    opacity: 0.12;
+    background-position: center top;
+  
+}
 }
 
 @media (prefers-reduced-motion: reduce) {
