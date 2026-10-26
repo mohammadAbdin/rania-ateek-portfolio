@@ -50,9 +50,9 @@ export function Gallery({
           alt={`Sample gallery photograph ${photoIndex + 1}`}
           loading="lazy"
         />
-        <div className="photo-tag">
+        {/* <div className="photo-tag">
           PHOTO JOURNAL / {String(photoIndex + 1).padStart(2, "0")}
-        </div>
+        </div> */}
         <button
           className="mobile-reveal"
           onClick={() => {
