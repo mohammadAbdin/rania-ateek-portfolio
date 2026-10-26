@@ -1,53 +1,8 @@
-// import React from "react";
-// import { images } from "../data";
-// import { ArrowUpRight } from "lucide-react";
-
-// export function About({}) {
-//   return (
-//     <section id="about" className="about section-pad">
-//       <div className="about-visual">
-//         <img
-//           src={images.about}
-//           alt="Placeholder live music atmosphere"
-//           loading="lazy"
-//         />
-//         <span className="visual-stamp">
-//           MORE THAN
-//           <br />
-//           MUSIC ✳
-//         </span>
-//       </div>
-//       <div className="about-copy">
-//         <div className="section-kicker">01 / THE ARTIST</div>
-//         <h2>
-//           Meet the voice
-//           <br />
-//           behind the <em>magic.</em>
-//         </h2>
-//         <p>
-//           Welcome to the world of Rania Ateek — where every performance is an
-//           invitation to feel, connect, and celebrate music.
-//         </p>
-//         <p className="muted">
-//           This is placeholder biography text. Add Rania's story, artistic
-//           background, and achievements here when you're ready.
-//         </p>
-//         <a
-//           className="outline-link"
-//           href="mailto:bookings@example.com?subject=About%20Rania"
-//         >
-//           GET IN TOUCH <ArrowUpRight size={19} />
-//         </a>
-//       </div>
-//     </section>
-//   );
-// }
-
 import React from "react";
 import { images } from "../data";
-import nardImage from "../Assets/Images/nard-ensemble.jpeg";
-import Rania4 from "../Assets/Images/Rania-4.jpg";
-import Rania7 from "../Assets/Images/Rania-7.jpg";
+import nardImage from "../Assets/Images/nard-ensemble.webp";
+import Rania4 from "../Assets/Images/Rania-4.webp";
+import Rania7 from "../Assets/Images/Rania-7.webp";
 
 import { ArrowUpRight, Music2 } from "lucide-react";
 

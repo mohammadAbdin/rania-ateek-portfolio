@@ -1,7 +1,5 @@
 import React from "react";
-import { images } from "../data";
 import RaniaStage from "../Assets/Images/Rania-stage.webp";
-// import Rania2 from "../Assets/Images/Rania-2.jpg";
 
 import { ArrowUpRight, ArrowRight, ChevronDown } from "lucide-react";
 

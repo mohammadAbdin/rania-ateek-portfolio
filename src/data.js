@@ -1,11 +1,11 @@
 // Replace sample entries with Rania's approved content before publishing.
 import Rania1 from "./Assets/Images/Rania-1.JPG";
-import Rania2 from "./Assets/Images/Rania-2.jpg";
+import Rania2 from "./Assets/Images/Rania-2.webp";
 import Rania3 from "./Assets/Images/Rania-3.jpg";
-import Rania4 from "./Assets/Images/Rania-4.jpg";
+import Rania4 from "./Assets/Images/Rania-4.webp";
 import Rania5 from "./Assets/Images/Rania-5.jpg";
 import Rania6 from "./Assets/Images/Rania-6.jpg";
-import Rania7 from "./Assets/Images/Rania-7.jpg";
+import Rania7 from "./Assets/Images/Rania-7.webp";
 import Rania8 from "./Assets/Images/Rania-8.JPG";
 
 
