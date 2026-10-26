@@ -54,7 +54,7 @@ export function Music({
                 >
                   <Play fill="currentColor" size={27} />
                 </button>
-                <span>SELECT A VIDEO TO LISTEN</span>
+                {/* <span>SELECT A VIDEO TO LISTEN</span> */}
               </div>
             )}
             <div className="video-controls">
