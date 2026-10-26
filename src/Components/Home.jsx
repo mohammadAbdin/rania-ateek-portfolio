@@ -107,7 +107,7 @@ export function Home() {
         </a>
       </div>
 
-      <div className="hero-index">01 / 05</div>
+      {/* <div className="hero-index">01 / 05</div> */}
     </section>
   );
 }

@@ -10,12 +10,6 @@ import Rania7 from "./Assets/Images/Rania-7.jpg";
 
 export const images = {
   hero: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1800&q=85",
-  // about:
-  //   "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=1100&q=85",
-  // video:
-  //   "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1800&q=85",
-  // events:
-  //   "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=1800&q=85",
   gallery: [
     Rania1,Rania2,Rania3,Rania4,Rania5,Rania6,Rania7
   ],
@@ -25,22 +19,22 @@ export const videos = [
   {
     id: "Udqr79TuBvo",
     title: "Wa Habibi",
-    subtitle: "Featured performance · Demo 01",
+    // subtitle: "Featured performance · Demo 01",
   },
   {
-    id: "jfKfPfyJRdk",
-    title: "Live in concert",
-    subtitle: "Live performance · Demo 02",
+    id: "fEv1stN0IWE",
+    title: "Nashid El Hob – Majida El Roumi",
+    // subtitle: "Live performance · Demo 02",
   },
   {
-    id: "ScMzIvxBSi4",
-    title: "Behind the melody",
-    subtitle: "Studio session · Demo 03",
+    id: "rMwkeZuENy4",
+    title: "Autumn Leaves",
+    // subtitle: "Studio session · Demo 03",
   },
   {
-    id: "aqz-KE-bpKQ",
-    title: "An intimate evening",
-    subtitle: "Acoustic session · Demo 04",
+    id: "7QwGHhM6qhc",
+    title: "Suleika — F. Mendelssohn, Op. 34, No. 4",
+    // subtitle: "Acoustic session · Demo 04",
   },
 ];
 // Dates are deliberately future sample dates; replace with verified event information.

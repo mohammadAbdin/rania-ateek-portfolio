@@ -24,12 +24,13 @@ export function Header({ navigate, menuOpen, setMenuOpen }) {
           </a>
         ))}
       </nav>
-      <a
+      <>.</>
+      {/* <a
         className="header-cta"
         href="mailto:bookings@example.com?subject=Booking%20inquiry"
       >
         BOOK RANIA <ArrowUpRight size={16} />
-      </a>
+      </a> */}
       <button
         className="mobile-menu icon-button"
         aria-label={menuOpen ? "Close menu" : "Open menu"}

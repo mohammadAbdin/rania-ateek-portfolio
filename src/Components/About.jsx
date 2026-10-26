@@ -151,11 +151,13 @@ export function About() {
         </div>
       </section>
 
-      <section id="repertoire"  
-      style={{
-    "--repertoire-image": `url("${Rania7}")`,
-  }} 
-  className="artistic-journey section-pad">
+      <section
+        id="repertoire"
+        style={{
+          "--repertoire-image": `url("${Rania7}")`,
+        }}
+        className="artistic-journey section-pad"
+      >
         <div className="journey-heading">
           <div>
             <div className="section-kicker">02 / THE REPERTOIRE</div>
@@ -189,10 +191,6 @@ export function About() {
             </div>
           ))}
         </div>
-
-        <p className="repertoire-note">
-          Selected repertoire · Additional roles and works
-        </p>
       </section>
 
       <section id="nard" className="nard-section section-pad">
@@ -203,9 +201,7 @@ export function About() {
             {/* Different roots.
             <br />
             <em>Shared harmony.</em> */}
-           <em>
-            Shared Harmony
-            </em> 
+            <em>Shared Harmony</em>
           </h2>
 
           <div className="nard-label">

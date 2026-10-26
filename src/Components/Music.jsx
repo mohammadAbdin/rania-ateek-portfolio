@@ -95,11 +95,6 @@ export function Music({
                 </span>
               </button>
             ))}
-            <p className="video-note">
-              Sample YouTube IDs for layout testing. Replace with Rania's
-              official videos before launch. Autoplay begins muted after
-              selecting a video; playback stops when the section leaves view.
-            </p>
           </div>
         </div>
       </div>
