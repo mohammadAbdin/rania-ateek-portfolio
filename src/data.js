@@ -1,17 +1,18 @@
 // Replace sample entries with Rania's approved content before publishing.
-import Rania1 from "./Assets/Images/Rania-1.jpg";
+import Rania1 from "./Assets/Images/Rania-1.Jpg";
 import Rania2 from "./Assets/Images/Rania-2.jpg";
 import Rania3 from "./Assets/Images/Rania-3.jpg";
 import Rania4 from "./Assets/Images/Rania-4.jpg";
 import Rania5 from "./Assets/Images/Rania-5.jpg";
 import Rania6 from "./Assets/Images/Rania-6.jpg";
 import Rania7 from "./Assets/Images/Rania-7.jpg";
+import Rania8 from "./Assets/Images/Rania-8.Jpg";
 
 
 export const images = {
   hero: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=1800&q=85",
   gallery: [
-    Rania1,Rania2,Rania3,Rania4,Rania5,Rania6,Rania7
+    Rania1,Rania2,Rania3,Rania4,Rania5,Rania6,Rania7,Rania8
   ],
 };
 // The sample video IDs are placeholders. Supply four actual YouTube IDs for launch.
