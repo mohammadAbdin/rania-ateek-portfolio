@@ -2,7 +2,6 @@ import React from "react";
 import { images, videos } from "../data";
 import { Play, VolumeX, Volume2 } from "lucide-react";
 import Rania2 from "../Assets/Images/Rania-2.jpg";
-// import RaniaStage from "../assets/images/Rania-stage.jpg";
 
 export function Music({
   videoRef,
