@@ -11,7 +11,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { images, events } from "./data";
 import "./styles.css";
-
+import { Analytics } from "@vercel/analytics/react";
 const formatDate = (value) =>
   new Date(value).toLocaleDateString("en-US", {
     month: "short",
@@ -131,4 +131,9 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(
+  <>
+    <App />
+    <Analytics />
+  </>
+);
