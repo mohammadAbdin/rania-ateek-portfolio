@@ -1,5 +1,4 @@
 import React from "react";
-import RaniaStage from "../Assets/Images/Rania-stage.webp";
 
 import { ArrowUpRight, ArrowRight, ChevronDown } from "lucide-react";
 
@@ -8,9 +7,7 @@ export function Home() {
     <section
       id="home"
       className="hero"
-      style={{
-        "--bg": `url("${RaniaStage}")`,
-      }}
+      style={{ "--bg": 'url("/Rania-stage.webp")' }}
     >
       <div className="hero-wash" />
 
