@@ -35,7 +35,7 @@ export function PopUpEvent({ detail,
               This is a sample event. Replace the event information and booking
               URL with official details.
             </div>
-            <a className="button primary" href="mailto:bookings@example.com?subject=Event%20inquiry">
+            <a className="button primary" href="mailto:rania.ateek.ra@gmail.com?subject=Event%20inquiry">
               ASK ABOUT THIS EVENT <ArrowUpRight size={17} />
             </a>
           </div>

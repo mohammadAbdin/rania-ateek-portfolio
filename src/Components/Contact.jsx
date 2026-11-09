@@ -13,7 +13,7 @@ export function Contact({}) {
       <p>Bookings, collaborations, workshops, or just to say hello.</p>
       <a
         className="button primary"
-        href="mailto:bookings@example.com?subject=Rania%20Ateek%20inquiry"
+        href="mailto:rania.ateek.ra@gmail.com?subject=Rania%20Ateek%20inquiry"
       >
         GET IN TOUCH <ArrowUpRight size={19} />
       </a>
@@ -34,7 +34,7 @@ export function Contact({}) {
         >
           <Youtube />
         </a>
-        <a href="mailto:bookings@example.com" aria-label="Email placeholder">
+        <a href="mailto:rania.ateek.ra@gmail.com" aria-label="Email placeholder">
           <Mail />
         </a>
       </div>
