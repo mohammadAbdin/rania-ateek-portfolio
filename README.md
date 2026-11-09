@@ -19,7 +19,7 @@ npm run build
 
 - `src/data.js` contains all images, the four YouTube video IDs, and event data.
 - `src/main.jsx` contains the placeholder biography, contact address, and social URLs.
-- Replace `bookings@example.com` and the generic social URLs before publishing.
+- Replace `rania.ateek.ra@gmail.com` and the generic social URLs before publishing.
 - Photos are stock placeholders, **not** photographs of Rania.
 - Event dates and locations are examples and are **not** real bookings.
 - YouTube IDs are sample/embed test IDs, **not** Rania's videos. Some test videos may not be embeddable.

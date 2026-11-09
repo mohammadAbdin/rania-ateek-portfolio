@@ -85,7 +85,7 @@ export function About() {
           <div className="about-highlights">
             <div>
               <span>ROOTS</span>
-              <strong>Nazareth, Palestine</strong>
+              <strong>Nazareth</strong>
             </div>
 
             <div>
